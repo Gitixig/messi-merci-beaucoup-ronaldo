@@ -5,7 +5,7 @@ $username=$_POST["username"];
 $password=$_POST["password"];
 $hash_password=password_hash($password,PASSWORD_BCRYPT);
 $sql="Insert Into tbluser(name,username,password) 
-                                        values('$name','$username','$password')";
+                                        values('$name','$username','$hash_password')";
 mysqli_query($conn,$sql);
 header("location:hahahaha.php");
 $conn->close();
