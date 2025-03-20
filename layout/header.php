@@ -12,9 +12,10 @@
     <div class="container">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#">List-user</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Add User</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="hahahaha.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="adduseer.php">Sign in</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
             </ul>
         </div>
