@@ -32,6 +32,7 @@
                     if (isset($_SESSION['Role']) && $_SESSION['Role'] === "admin") {
 
                         echo '<li class="nav-item"><a class="nav-link text-warning" href="addplayer.php">Add Player</a></li>';
+                        echo '<li class="nav-item"><a class="nav-link text-warning" href="listuser.php">List user</a></li>';
                     }
                     ?>
 
