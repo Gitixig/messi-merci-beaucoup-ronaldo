@@ -1,4 +1,4 @@
-<?php include 'layout/header.php';
+<?php include '../layout/header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +68,7 @@
             <div class="row g-3">
                 <div class="col-6 col-md-4 col-lg-3">
             <div class="product-box">
-                <img src="image/p258020801.png">
+                <img src="../image/p258020801.png">
                 <div class="product-info">
                 <div class="product-title">Cristiano Ronaldo</div>
                 <div class="product-price">1 tỷ đô</div>
@@ -81,7 +81,7 @@
             </div>
             <div class="col-6 col-md-4 col-lg-3">
             <div class="product-box">
-                <img src="image/p258020801.png">
+                <img src="../image/p258020801.png">
                 <div class="product-info">
                 <div class="product-title">Cristiano Ronaldo</div>
                 <div class="product-price">1 tỷ đô</div>
@@ -94,7 +94,7 @@
         </div>
         <div class="col-6 col-md-4 col-lg-3">
             <div class="product-box">
-                <img src="image/p258020801.png">
+                <img src="../image/p258020801.png">
                 <div class="product-info">
                 <div class="product-title">Cristiano Ronaldo</div>
                 <div class="product-price">1 tỷ đô</div>
@@ -107,7 +107,7 @@
         </div>
         <div class="col-6 col-md-4 col-lg-3">
             <div class="product-box">
-                <img src="image/p258020801.png">
+                <img src="../image/p258020801.png">
                 <div class="product-info">
                 <div class="product-title">Cristiano Ronaldo</div>
                 <div class="product-price">1 tỷ đô</div>
@@ -121,6 +121,6 @@
         </div>
         </div>
 </body>
-<?php include 'layout/footer.php';
+<?php include '../layout/footer.php';
 ?>
 </html>
