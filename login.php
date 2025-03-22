@@ -5,9 +5,9 @@
             <h4 class="mb-0">Login</h4>
         </div>
         <div class="card-body">
-            <?php 
+            <?php
             if (isset($_SESSION["ErrorMessage"])) {
-                echo "<div class='alert alert-danger'>".$_SESSION['ErrorMessage']."</div>";
+                echo "<div class='alert alert-danger'>" . $_SESSION['ErrorMessage'] . "</div>";
                 unset($_SESSION['ErrorMessage']);
             }
             ?>

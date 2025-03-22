@@ -110,7 +110,7 @@
             text-align: center;
         }
 
-        
+
         .search-box input:focus {
             border-color: white;
             /* Viền sáng lên */
@@ -151,7 +151,7 @@
         </div>
     </div>
     <h3 style="text-align: center; margin-top: 30px;"><b>Có Thể Bạn Quan Tâm: </b></h3>
-    <div class="container" style="margin-left: auto; margin-right:auto">
+    <div class="container" style="align-items: center;">;
         <div class="row">
             <div class="col">
                 <div class="container" style="width: max-content;">
@@ -290,10 +290,4 @@
             </div>
         </div>
     </div>
-
-
-
-
 </body>
-
-</html>

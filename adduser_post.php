@@ -1,3 +1,4 @@
+<?php session_start()?>
 <?php if(isset($_POST["name"])){
     include 'db/db.php';
 $name=$_POST["name"];
@@ -7,6 +8,8 @@ $hash_password=password_hash($password,PASSWORD_BCRYPT);
 $sql="Insert Into tbluser(name,username,password) 
                                         values('$name','$username','$hash_password')";
 mysqli_query($conn,$sql);
+$_SESSION['UserLogin']=$username;
+$_SESSION['Role']="user";
 header("location:hahahaha.php");
 $conn->close();
 }
