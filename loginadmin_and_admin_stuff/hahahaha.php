@@ -77,27 +77,26 @@
         }
     </style>
 </head>
-
 <?php
 $conn = mysqli_connect('localhost', 'root', '', 'tbluser');
 
-// Kiểm tra kết nối
+
 if (!$conn) {
     die("Kết nối thất bại: " . mysqli_connect_error());
 }
 
-// Lấy danh sách cầu thủ
+
 $productlist = mysqli_query($conn, 'SELECT * FROM players');
 ?>
 
 <body>
     <h2 style="text-align: center;">Danh Sách Cầu Thủ</h2>
-    <div class="container m-5">
+    <div class="container justify-content-center" style="padding-top: 30px; padding-bottom: 30px;">
 
-        <div class="row">
+        <div class="row row-custom">
             <?php while ($item = mysqli_fetch_assoc($productlist)) { ?>
                 <div class="col-6 col-md-4 col-lg-3">
-                    <div class="product-box">
+                    <div class="product-box" style="margin: 20px;">
                         <img src="<?= $item['avatar'] ?>" alt="Ảnh cầu thủ">
                         <div class="product-info">
                             <h4><?= $item['name'] ?></h4>
