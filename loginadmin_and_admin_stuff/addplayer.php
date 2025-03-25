@@ -97,8 +97,8 @@ if (!isset($_SESSION['Role']) || $_SESSION['Role'] !== "admin") {
 
             <div class="form-group">
                 <label for="country">Quốc Gia</label>
-                <input type="text" id="country" name="country" placeholder="Nhập quốc gia" required>
-            </div>
+                <img id="country-flag" src=""><?php include 'national.php';?>
+                </div>
 
 
             <div class="form-group">
@@ -137,6 +137,13 @@ if (!isset($_SESSION['Role']) || $_SESSION['Role'] !== "admin") {
                 };
                 reader.readAsDataURL(file);
             }
+      
+        });  
+        document.getElementById('country').addEventListener('change',function(){
+            var selectedOption=this.options[this.selectedIndex];
+            var flagUrl=selectedOption.getAttribute('data-flag')
+            document.getElementById('country-flag').src=flagUrl;
+
         });
     </script>
 
