@@ -7,12 +7,12 @@
     <title>Trang Web Mẫu</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #f8f8f8;
+            /* Tạo hiệu ứng đậm */
         }
 
         .header {
@@ -30,6 +30,7 @@
             margin: 20px;
             border: none;
             justify-content: center;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         }
 
         .search-box input {
@@ -42,7 +43,7 @@
             font-weight: 200;
             background-color: #DD0000;
             outline: none;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'Bebas Neue', Helvetica, sans-serif;
         }
 
         h1 {
@@ -92,9 +93,12 @@
             transform: scale(1.1);
         }
 
-        .box:hover span {
+        .box:hover p {
             color: #DD0000;
         }
+
+
+
 
         .search-box input {
             width: 50%;
@@ -114,7 +118,7 @@
         .search-box input:focus {
             border-color: white;
             /* Viền sáng lên */
-            box-shadow: 0px 0px 10px rgba(248, 248, 247, 0.8);
+            box-shadow: 0px 0px 30px rgba(248, 248, 247, 0.8);
             /* Phát sáng */
         }
 
@@ -135,8 +139,39 @@
 
         .search-box input::placeholder {
             color: white;
-            animation: typingEffect 1.5s infinite;
+            animation: 1.5s infinite;
             /* Placeholder nhấp nháy */
+        }
+
+        .box {
+            padding: 10px;
+        }
+
+        .card {
+            text-overflow: ellipsis;
+            width: 420px;
+            overflow: hidden;
+            display: block;
+            white-space: nowrap;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            font-family: 'Source Sans Pro', Helvetica, sans-serif;
+        }
+
+
+
+        p {
+            font-size: larger;
+            display: inline-block;
+            max-width: 280px;
+            /* Giới hạn chiều rộng của phần văn bản, trừ đi chiều rộng ảnh (100px) và padding */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .search-box {
+            font-family: 'Source Sans Pro', Helvetica, sans-serif;
         }
     </style>
 </head>
@@ -145,51 +180,57 @@
 
     <div class="header">
         <div class="search-box">
-            <p>Hi There</p>
+            <h4>Hi There</h4>
             <input type="text" placeholder="TÌM KIẾM CẦU THỦ,CÂU HỎI THƯỜNG GẶP...">
             <h1></h1>
         </div>
     </div>
-    <h3 style="text-align: center; margin-top: 30px;"><b>Có Thể Bạn Quan Tâm: </b></h3>
-    <div class="container" style="align-items: center;">;
+    <h3 style="text-align: center; margin-top: 30px;">
+        <b>Có Thể Bạn Quan Tâm: </b>
+    </h3>
+    <div class="container" style="align-items: center;">
         <div class="row">
-            <div class="col">
-                <div class="container" style="width: max-content;">
+            <div class="col" style="max-width: 2500px;">
+                <div class="container">
                     <div class="box1">
-                        <div class="container" style="padding-top: 50px; padding-left: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding-top: 50px; padding-left: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
 
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
-                                        <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
+                                        <img src="../img-MU/Alejandro-Garnacho.png" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMwqedqeq</p>
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="box1">
-                        <div class="container" style="padding: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMqweqeq</p>
+
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="box1">
-                        <div class="container" style="padding: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMqweqeq</p>
+
                                 </a>
                             </div>
                         </div>
@@ -199,43 +240,49 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="container" style="width: max-content;">
+            <div class="col" style="max-width: 2500px;">
+                <div class="container">
                     <div class="box1">
-                        <div class="container" style="padding-top: 50px; padding-left: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding-top: 50px; padding-left: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
 
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMwqedqeq</p>
+
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="box1">
-                        <div class="container" style="padding: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMqweqeq</p>
+
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="box1">
-                        <div class="container" style="padding: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMqweqeq</p>
+
                                 </a>
                             </div>
                         </div>
@@ -245,43 +292,47 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="container" style="width: max-content;">
+            <div class="col" style="max-width: 2500px;">
+                <div class="container">
                     <div class="box1">
-                        <div class="container" style="padding-top: 50px; padding-left: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding-top: 50px; padding-left: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
 
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMwqedqeq</p>
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="box1">
-                        <div class="container" style="padding: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMqweqeq</p>
+
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="box1">
-                        <div class="container" style="padding: 10px;">
-                            <div class="box" style="padding: 10px;">
+                        <div style="padding: 10px;">
+                            <div class="box">
                                 <a href="https://example.com/news1" style="text-decoration: none;color: inherit;">
-                                    <div class="card" style="width:max-content; height: 100px; display: flex; align-items:first baseline; padding: 5px;">
+                                    <div class="card" style=" height: 100px; display: flex; padding: 5px;">
                                         <img src="img/ba_tríc.jpg" class="img-fluid rounded-start"
                                             style="width:100px; height: 90px;">
-                                        <span style="display: inline-block;"><b>AMORIM NAMES SIDE TO FACE FULHAM</b></span>
+
+                                        <p>AMORIM NAMES SIDE TO FACE FULHAMqweqeq</p>
+
                                 </a>
                             </div>
                         </div>
