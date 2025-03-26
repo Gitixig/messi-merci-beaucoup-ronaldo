@@ -38,7 +38,7 @@
             height: 50px;
             padding: 10px;
             font-size: 35px;
-            border: none;
+            border: 5%;
             color: white;
             font-weight: 200;
             background-color: #DD0000;
@@ -120,6 +120,7 @@
             /* Viền sáng lên */
             box-shadow: 0px 0px 30px rgba(248, 248, 247, 0.8);
             /* Phát sáng */
+            border-radius: 10px;
         }
 
         /* Hiệu ứng placeholder động */
