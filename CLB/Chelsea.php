@@ -23,7 +23,7 @@
     }
 
     .header {
-        background-color: rgb(11, 6, 148);
+        background-color: rgb(7, 0, 201);
         color: white;
         padding: 20px;
         text-align: center;
@@ -68,7 +68,7 @@
 
 <body>
     <div class="header">
-        <img src="../img-home/Chelsea.png" alt="Chelsea Logo">
+        <img src="../logo/Chelsea.png" alt="Chelsea Logo">
         <h1>Chelsea</h1>
 
         <p>
@@ -77,14 +77,14 @@
         </p>
         <p>
             <img src="../img-home/icon-website.png" alt="Trang web" width="20">
-            Official Website: <a href="https://www.mancity.com">www.mancity.com</a>
+            Official Website: <a href="https://www.chelseafc.com/en">www.chelseafc.com</a>
         </p>
         <p>
-            <a href=""><img src="../img-home/share.png" Chia sẻ" width="20m"></a>
-            <a href="#"><img src="../img-home/face.png" alt="Facebook" width="20"></a>
-            <a href="#"><img src="../img-home/X.png" alt="X (Twitter)" width="20"></a>
-            <a href="#"><img src="../img-home/Youtube.png" alt="YouTube" width="20"></a>
-            <a href="#"><img src="../img-home/ins.png" alt="Instagram" width="20"></a>
+            <a><img src="../img-home/share.png" Chia sẻ" width="20m"></a>
+            <a href="https://www.facebook.com/ChelseaFC"><img src="../img-home/face.png" alt="Facebook" width="20"></a>
+            <a href="https://x.com/ChelseaFC"><img src="../img-home/X.png" alt="X (Twitter)" width="20"></a>
+            <a href="https://www.youtube.com/user/chelseafc"><img src="../img-home/Youtube.png" alt="YouTube" width="20"></a>
+            <a href="https://www.instagram.com/chelseafc/"><img src="../img-home/ins.png" alt="Instagram" width="20"></a>
         </p>
     </div>
 
@@ -92,7 +92,7 @@
         <div class="container">
 
             <a class="navbar-brand" href="#">
-                <img src="../img-home/Chelsea.png" style="width: 70px;" alt="Logo">
+                <img src="../logo/Chelsea.png" style="width: 70px;" alt="Logo">
             </a>
 
             <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

@@ -23,7 +23,7 @@
     }
 
     .header {
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(127, 124, 124);
         color: white;
         padding: 20px;
         text-align: center;
@@ -68,7 +68,7 @@
 
 <body>
     <div class="header">
-        <img src="../img-home/New.png" alt="Chelsea Logo">
+        <img src="../logo/New.png" alt="Chelsea Logo">
         <h1>Newcastle United</h1>
 
         <p>
@@ -77,22 +77,22 @@
         </p>
         <p>
             <img src="../img-home/icon-website.png" alt="Trang web" width="20">
-            Official Website: <a href="www.nufc.co.uk">www.nufc.co.uk</a>
+            Official Website: <a href="https://www.newcastleunited.com/en">www.nufc.co.uk</a>
         </p>
         <p>
-            <a href=""><img src="../img-home/share.png" Chia sẻ" width="20m"></a>
-            <a href="#"><img src="../img-home/face.png" alt="Facebook" width="20"></a>
-            <a href="#"><img src="../img-home/X.png" alt="X (Twitter)" width="20"></a>
-            <a href="#"><img src="../img-home/Youtube.png" alt="YouTube" width="20"></a>
-            <a href="#"><img src="../img-home/ins.png" alt="Instagram" width="20"></a>
+            <a><img src="../img-home/share.png" Chia sẻ" width="20m"></a>
+            <a href="https://www.facebook.com/newcastleunited"><img src="../img-home/face.png" alt="Facebook" width="20"></a>
+            <a href="https://x.com/NUFC"><img src="../img-home/X.png" alt="X (Twitter)" width="20"></a>
+            <a href="https://www.youtube.com/channel/UCywGl_BPp9QhD0uAcP2HsJw"><img src="../img-home/Youtube.png" alt="YouTube" width="20"></a>
+            <a href="https://www.instagram.com/nufc/"><img src="../img-home/ins.png" alt="Instagram" width="20"></a>
         </p>
     </div>
 
-    <nav class="navbar navbar-expand-lg" style="background-color:rgb(144, 135, 135);">
+    <nav class="navbar navbar-expand-lg" style="background-color:rgb(0, 0, 0);">
         <div class="container">
 
             <a class="navbar-brand" href="#">
-                <img src="../img-home/New.png" style="width: 70px;" alt="Logo">
+                <img src="../logo/New.png" style="width: 70px;" alt="Logo">
             </a>
 
             <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -111,7 +111,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <b style="color: white;">MORE</b>
                         </a>
-                        <ul class="dropdown-menu" style="background-color:rgb(60, 182, 243);">
+                        <ul class="dropdown-menu" style="background-color:rgb(0, 0, 0);">
                             <li><a class="dropdown-item" href="#"> <b style="color: white;">MORE</b></a></li>
                             <li><a class="dropdown-item" href="#"> <b style="color: white;">MORE</b></a></li>
                             <li>
