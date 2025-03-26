@@ -124,7 +124,7 @@
                 </ul>
 
                 <div class="d-flex align-items-center ms-5" style="align-items: center; padding-left: 100px;">
-                    <a class="nav-link text-white me-3 d-flex align-items-center" href="Search.php">
+                    <a class="nav-link text-white me-3 d-flex align-items-center" href="../Search.php">
                         <b>Search</b>
                         <i class="bi bi-search fs-4"></i>
                     </a>
