@@ -78,7 +78,7 @@
     </style>
 </head>
 <?php
-$conn = mysqli_connect('localhost', 'root', '', 'user');
+$conn = mysqli_connect('localhost', 'root', '', 'tbluser');
 
 
 if (!$conn) {
