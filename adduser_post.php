@@ -10,7 +10,7 @@ $sql="Insert Into tbluser(name,username,password)
 mysqli_query($conn,$sql);
 $_SESSION['UserLogin']=$username;
 $_SESSION['Role']="user";
-header("location:hahahaha.php");
+    header("location:login.php");
 $conn->close();
 }
 else{

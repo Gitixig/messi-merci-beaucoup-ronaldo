@@ -68,7 +68,7 @@
 
 <body>
     <div class="header">
-        <img src="../img-home/MU.png" alt="Manchester United Logo">
+        <img src="../logo/MU.png" alt="Manchester United Logo">
         <h1>Manchester United</h1>
 
         <p>
@@ -80,11 +80,11 @@
             Official Website: <a href="https://www.manutd.com">www.mancity.com</a>
         </p>
         <p>
-            <a href=""><img src="../img-home/share.png" Chia sẻ" width="20m"></a>
-            <a href="#"><img src="../img-home/face.png" alt="Facebook" width="20"></a>
-            <a href="#"><img src="../img-home/X.png" alt="X (Twitter)" width="20"></a>
-            <a href="#"><img src="../img-home/Youtube.png" alt="YouTube" width="20"></a>
-            <a href="#"><img src="../img-home/ins.png" alt="Instagram" width="20"></a>
+            <a><img src="../img-home/share.png" Chia sẻ" width="20m"></a>
+            <a href="https://www.facebook.com/manchesterunited"><img src="../img-home/face.png" alt="Facebook" width="20"></a>
+            <a href="https://x.com/ManUtd_AR"><img src="../img-home/X.png" alt="X (Twitter)" width="20"></a>
+            <a href="https://www.youtube.com/channel/UC6yW44UGJJBvYTlfC7CRg2Q"><img src="../img-home/Youtube.png" alt="YouTube" width="20"></a>
+            <a href="https://www.instagram.com/manchesterunited/"><img src="../img-home/ins.png" alt="Instagram" width="20"></a>
         </p>
     </div>
 
@@ -92,7 +92,7 @@
         <div class="container">
 
             <a class="navbar-brand" href="#">
-                <img src="../img-home/MU.png" style="width: 70px;" alt="Logo">
+                <img src="../logo/MU.png" style="width: 70px;" alt="Logo">
             </a>
 
             <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -111,7 +111,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <b style="color: white;">MORE</b>
                         </a>
-                        <ul class="dropdown-menu" style="background-color:rgb(233, 22, 22);">
+                        <ul class="dropdown-menu" style="background-color:rgb(0, 0, 0);">
                             <li><a class="dropdown-item" href="#"> <b style="color: white;">MORE</b></a></li>
                             <li><a class="dropdown-item" href="#"> <b style="color: white;">MORE</b></a></li>
                             <li>
