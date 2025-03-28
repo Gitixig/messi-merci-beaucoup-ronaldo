@@ -9,6 +9,8 @@ if ($_SERVER['REQUEST_METHOD'] =='POST' && isset($_POST['frmUsername']) && isset
         $_SESSION['UserLogin']=$frmUsername;
         header("location:loginadmin_and_admin_stuff/checkadmin.php");
         exit();
+    } else {
+        
     }
 
     

@@ -12,7 +12,14 @@
 <style>
     .nav-link.dropdown-toggle::after {
         border-top-color: white !important;
+    }
 
+    .dropdown-menu {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .dropdown-menu:hover {
+        transform: scale(1.05);
     }
 </style>
 
@@ -22,7 +29,7 @@
         <div class="container">
 
             <a class="navbar-brand" href="#">
-                <img src="img/logo-manchester-united.webp" style="width: 70px;" alt="Logo">
+                <img src="logo/Liverpool.png" style="width: 70px;" alt="Logo">
             </a>
 
             <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -54,11 +61,11 @@
                 </ul>
 
                 <div class="d-flex align-items-center ms-5" style="align-items: center; padding-left: 100px;">
-                    <a class="nav-link text-white me-3 d-flex align-items-center" href="Search.php">
+                    <a class="nav-link text-white me-3 d-flex align-items-center" href="CLB/Search.php">
                         <b>Search</b>
                         <i class="bi bi-search fs-4"></i>
                     </a>
-                    <a class="nav-link text-white me-3 d-flex align-items-center ps-5  ms-auto me-auto" href="#">
+                    <a class="nav-link text-white me-3 d-flex align-items-center ps-5  ms-auto me-auto" href="login.php">
                         <b>Sinup</b>
                         <i class="bi bi-person fs-4"></i>
                     </a>

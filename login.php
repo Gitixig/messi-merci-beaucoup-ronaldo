@@ -22,6 +22,7 @@
         display: flex;
         justify-content: center;
         margin: auto;
+
     }
 
     .menueff-inset {
@@ -37,11 +38,12 @@
         padding: 30px;
         text-align: center;
         background: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(0px);
+        backdrop-filter: blur(10px);
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
         width: 600px;
         height: 400px;
-        margin-top: 50px;
+        margin-top: 150px;
+
     }
 
     h1 {
@@ -80,7 +82,7 @@
 
     .menueff-button:active {
         background-color: #d1d9e6;
-        border: 1px solid #a3b1c6;
+        border: 1px solid rgb(240, 244, 249);
     }
 </style>
 
