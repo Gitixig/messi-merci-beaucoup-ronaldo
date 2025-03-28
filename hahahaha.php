@@ -102,7 +102,7 @@ $productlist = mysqli_query($conn, 'SELECT * FROM players');
                             <h4><?= $item['name'] ?></h4>
                             <p>Ngày sinh: <?= $item['dob'] ?></p>
                             <p>Chiều cao: <?= $item['height'] ?> cm</p>
-                            <p>Quốc gia:<img id="country-flag" src="../flags/<?= strtolower(str_replace(' ','-',$item['country']))?>.png" style="height: 35px; width:45px; margin-left: 20px;"> <?= $item['country'] ?></p>
+                            <p>Quốc gia:<img id="country-flag" src="flags/<?= strtolower(str_replace(' ','-',$item['country']))?>.png" style="height: 35px; width:45px; margin-left: 20px;"> <?= $item['country'] ?></p>
                             <p>Giá : <?= $item['price'] ?></p>
                         </div>
                         <div class="product-action">
