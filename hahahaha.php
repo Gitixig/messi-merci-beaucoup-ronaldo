@@ -1,4 +1,4 @@
-<?php include '../layout/header.php'; ?>
+<?php include 'layout/header.php'; ?>
 
 <!DOCTYPE html>
 <html lang="vi">
@@ -78,7 +78,7 @@
     </style>
 </head>
 <?php
-$conn = mysqli_connect('localhost', 'root', '', 'tbluser');
+$conn = mysqli_connect('localhost', 'root', '', 'user');
 
 
 if (!$conn) {
@@ -97,7 +97,7 @@ $productlist = mysqli_query($conn, 'SELECT * FROM players');
             <?php while ($item = mysqli_fetch_assoc($productlist)) { ?>
                 <div class="col-6 col-md-4 col-lg-3">
                     <div class="product-box" style="margin: 20px;">
-                        <img src="<?= $item['avatar'] ?>" alt="Ảnh cầu thủ">
+                        <img src="uploads/<?=$item['avatar'] ?>" alt="Ảnh cầu thủ">
                         <div class="product-info">
                             <h4><?= $item['name'] ?></h4>
                             <p>Ngày sinh: <?= $item['dob'] ?></p>
@@ -117,6 +117,6 @@ $productlist = mysqli_query($conn, 'SELECT * FROM players');
 
 </body>
 
-<?php include '../layout/footer.php'; ?>
+<?php include 'layout/footer.php'; ?>
 
 </html>

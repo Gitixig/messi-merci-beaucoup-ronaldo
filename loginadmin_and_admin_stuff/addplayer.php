@@ -96,8 +96,8 @@ if (!isset($_SESSION['Role']) || $_SESSION['Role'] !== "admin") {
 
             <div class="form-group">
                 <label for="country">Quốc Gia</label>
-                <img id="country-flag" src=""><?php include 'national.php';?>
-                </div>
+                <img id="country-flag" src="../flags/"><?php include 'national.php';?>
+            </div>
 
 
             <div class="form-group">
@@ -138,12 +138,18 @@ if (!isset($_SESSION['Role']) || $_SESSION['Role'] !== "admin") {
             }
       
         });  
-        document.getElementById('country').addEventListener('change',function(){
-            var selectedOption=this.options[this.selectedIndex];
-            var flagUrl=selectedOption.getAttribute('data-flag')
-            document.getElementById('country-flag').src=flagUrl;
-
-        });
+       document.getElementById('country').addEventListener('change',function(){
+        var selectedOption=this.options[this.selectedIndex];
+        var flagUrl=selectedOption.getAttribute('data-flag');
+        var flagImg=document.getElementById('country-flag');
+        if(flagUrl){
+            flagImg.src=flagUrl;
+            flagImg.style.display="block";
+        }
+        else{
+            flagImg.style.display="none";
+        }
+       });
     </script>
 
 </body>

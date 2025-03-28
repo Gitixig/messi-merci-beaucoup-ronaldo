@@ -20,7 +20,8 @@
         <div class="container">
             <div class="collapse navbar-collapse" style="justify-content: center;" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hahahaha.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="CLB.php">CLB</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                     <?php
                     if (!isset($_SESSION['UserLogin'])) {
@@ -35,6 +36,7 @@
 
                         echo '<li class="nav-item"><a class="nav-link text-warning" href="addplayer.php">Add Player</a></li>';
                         echo '<li class="nav-item"><a class="nav-link text-warning" href="listuser.php">List user</a></li>';
+                        echo '<li class="nav-item"><a class="nav-link text-warning" href="CLB.php">Add CLB</a></li>';
                     }
                     ?>
 

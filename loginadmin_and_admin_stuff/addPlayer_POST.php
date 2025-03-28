@@ -27,7 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['name'])) {
             die("Lỗi khi tải ảnh lên.");
         }
     }
-
     $sql = "INSERT INTO `players` (`name`, `dob`, `country`, `height`,`price`, `position`, `avatar`) 
             VALUES ('$name', '$dob', '$country', '$height','$price', '$position', '$avatar')";
 
